@@ -1,0 +1,126 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A8A8A8;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('../images/bg-repeat.jpg')repeat center;
+    margin-top: 50px;
+    width: 800px;
+    height: 402px;
+}
+
+.container .info {
+    margin-right: 73PX;
+}
+
+.container .info .duvida {
+    width: 300px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.container .info .descricao {
+    width: 300px;
+    margin-top: 11px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 378px;
+    margin-left: 22px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.container .input {
+    width: 300px;
+    height: 35px;
+    margin-left: 21.99px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.container .input::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+    color: #A8A8A8;
+    text-indent: 0.6em; 
+}
+
+.container .email, .container .telefone {
+    margin-top: 15px;
+}
+
+.container .mensagem {
+    width: 300px;
+    height: 100px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 22px;
+}
+
+.container .mensagem::placeholder {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 2;
+    color: #A8A8A8;
+    text-indent: 0.6em; 
+}
+
+.container .texto-campo {
+    font-weight: 400;
+    line-height: 3;
+    margin-left: 15px;
+    color: #000;
+    font-size: 15px;
+}
+
+.container .btn {
+    width: 300px;
+    height: 40px;
+    margin-left: 22px;
+    font-size: 15px;
+    border: none;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #3ccc87;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.campo-obrigatorio {
+    color: #F52E2E;
+    margin-left: 24px;
+    font-size: 8px;
+    font-weight: 400;
+}
+
+.borda-invalida {
+    border: 1px solid #F52E2E;
+}
+
+.borda-valida {
+    border: 1px solid #00C22B;
+}
+
+.margin-mensagem {
+    margin-bottom: -6px;
+}
+
+.margin-inputs{
+    margin-bottom: -10px;
+}
